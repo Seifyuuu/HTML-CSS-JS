@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Nourriture</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+<header>
+    <!-- Message + image d'accueil  -->
+    <div id="msgAccueil">
+      <h1 class="animate__animated animate__bounceInLeft">La Nourriture</h1>  
+      <h2>Entrée - Plat - Dessert</h2>
+    </div>
+
+    <a id="imgAccueil">
+      <a href="https://www.takeaway.com/be-fr/" target="_blank"><img id="menu" src="./public/img/entree.jpg" alt="entrée"/></a>
+      <a href="https://www.pizzahut.be/fr" target="_blank"><img id="menu" src="./public/img/pizza.jpg" alt="pizza" /></a>
+      <a href="https://ijsboerke.be/" target="_blank"><img id="menu" src="./public/img/glace.jpg" alt="dessert" /></a>
+    </div>
+
+    <!-- lien vers commande.html + lien vers le footer (qui n'existe pas pour le moment) -->
+
+      <div id="liensRapides">
+        <p id="lienCommande" class="animate__animated animate__rotateInDownLeft">
+        Cliquez <a href="./public/html/commande.html">ici</a> pour commander !
+        <br />
+        Cliquez <a href="#footer">ici</a> pour descendre la page !
+       </p>
+      </div>
+    <hr />
+</header>
+    
+    <!-- Section avec le menu -->
+    <section id="menu">
+      <div id="listeEntrees">
+        <ul>
+          <h1>Entrées</h1>
+          <li>Soupe
+           <ul><li>aux tomates</li>
+             <li>aux oignons</li>
+              <li>HARIRA POTE</li></ul>
+          </li>
+         <li>Nachos
+           <ul><li>sauce fromage
+              <li>supplément Guacamole</li>
+            </li></ul>
+            <ul><li>sauce piquante
+             <li>supplément Guacamole</li>
+            </li></ul>
+         </li>
+          <li>Toasts</li>
+          <li>Pains à l'ail</li>
+         <li>Je sais pas quoi mettre mdr</li>
+        </ul>
+      </div>
+
+      <div id="listePlats">
+       <ol>
+          <h1>Plats</h1>
+          <li>Pennes au poulet sauce Chef</li>
+          <li>Couscous (pas au merguez)</li>
+          <li>Steak frites salade (comme à la maison)</li>
+          <li>Ratatouille</li>
+          <li>Burger XXL 5 steaks (spécial gros mangeurs)</li>
+        </ol>
+      </div>
+
+      <div id="listeDesserts">
+        <ul>
+          <h1>Desserts</h1>
+          <li>Milkshake
+            <ul>
+              <li>Fraise-Banane-Avocat</li>
+              <li>Kinder Bueno-Kinder Country</li>
+            </ul>
+          </li>
+          <li>Glaces (avec bonbon et chocolat chaud)
+            <ul>
+              <li>Fraise</li>
+              <li>Banane</li>
+              <li>Pistache</li>
+            </ul>
+          </li>
+          <li>Fondant au chocolat blanc</li>
+          <li>Churros (avec Nutella)</li>
+          <li>McFlurry (500g de glace avec 250g de M&M's)</li>
+       </ul>
+      </div>
+    </section>    
+    <br>
+
+    <!-- Galerie d'images rapides  -->
+    <h2 id="accueilImages">Galerie d'images</h2>
+    <section id="galerieImages">
+      <div id="imagesHaut">
+        <img id="galerie" src="/public/img/photo1.jpg" alt="">
+        <img id="galerie" src="/public/img/photo2.jpg" alt="">
+        <img id="galerie" src="/public/img/photo3.jpg" alt="">
+        <img id="galerie" src="/public/img/photo4.jpg" alt="">
+        <img id="galerie" src="/public/img/photo5.jpg" alt="">
+      </div>
+      <div id="imagesBas">
+        <img id="galerie" src="/public/img/photo6.jpg" alt="">
+        <img id="galerie" src="/public/img/photo7.jpg" alt="">
+        <img id="galerie" src="/public/img/photo8.jpg" alt="">
+        <img id="galerie" src="/public/img/photo9.jpg" alt="">
+        <img id="galerie" src="/public/img/photo10.jpg" alt="">
+      </div>
+    </section>
+    
+
+
+  </body>
+</html>

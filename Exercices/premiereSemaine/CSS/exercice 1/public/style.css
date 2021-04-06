@@ -1,0 +1,21 @@
+.motListe {
+    font-style: italic;
+}
+
+h1 {
+   color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+    background-color: red;
+    font-size: 300%;
+}
+
+#h4Souligner {
+    text-decoration: underline;
+}
