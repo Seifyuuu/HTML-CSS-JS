@@ -1,0 +1,62 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+
+/*  */
+
+header{
+    background-color: darkblue; 
+    margin-bottom: 10px;
+}
+.container1{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+}
+.flex-item1{
+    background-color: blueviolet;
+    width: 100%;
+    
+}
+
+/* Manque les bords arrondis */
+
+section{
+    background-color: brown;
+    margin-bottom: 10px;
+}
+.container2{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;    
+    height: 700px;
+}
+.flex-item2{
+    background-color: aquamarine;
+    width: 25%;    
+}
+.flex-item3{
+    background-color: olivedrab;
+    width: 100%;
+    
+}
+.flex-item4{
+    background-color: aquamarine;
+    width: 25%;
+}   
+
+/* Manque les bords arrondi, le placement et la séparation */
+
+footer{
+    background-color: peru;
+}
+.container3{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+}
+.flex-item5{
+    background-color: blueviolet;
+    width: 100%;
+}
