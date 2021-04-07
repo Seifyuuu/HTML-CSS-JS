@@ -30,12 +30,11 @@ body{
     box-shadow: 0px 5px 5px #161616;
     transform:translateY(-10px)
 }
-
 .slideMenu{
     color: grey;
     font-weight: bold;
-    transition: 2s;
     text-align: center;
+    transition: 2s;
 }
 /* .listeEntrees:hover .slideMenu{
     color: transparent;
