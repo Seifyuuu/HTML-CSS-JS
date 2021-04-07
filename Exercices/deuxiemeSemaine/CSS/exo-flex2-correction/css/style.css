@@ -1,0 +1,46 @@
+/*methode 1*/
+.parent{
+    display: flex;
+}
+.enfant{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+/*methode 2*/
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+.enfant{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+body>:first-child>div{
+    width: 100%;
+}
+body>:nth-child(2)>div{
+    width: 755px;
+}
+body>:nth-child(3)>div{
+    width: 500px;
+}
+body>:last-child>div{
+    width: 117px;
+} */

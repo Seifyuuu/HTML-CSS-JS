@@ -3,7 +3,7 @@ body{
     
 }
 
-/*  */
+/* séparation */
 
 header{
     margin-bottom: 10px;
@@ -30,7 +30,7 @@ section{
     height: 700px;
     
 }
-.flex-item2{
+.flex-item2,.flex-item4{
     background-color: aquamarine;
     width: 25%;  
     padding: 10px; 
@@ -44,13 +44,7 @@ section{
     margin: 10px; 
     border-radius: 10px; 
 }
-.flex-item4{
-    background-color: aquamarine;
-    width: 25%;
-    padding: 10px;
-    margin: 10px; 
-    border-radius: 10px; 
-}   
+ 
 
 /* Manque les bords arrondi, le placement et la séparation */
 
