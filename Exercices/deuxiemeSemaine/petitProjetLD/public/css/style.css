@@ -21,18 +21,16 @@ body{
     height: 300px;
     width: 100%;
     margin: 10px;
-    transition: 3s;
+    transition: 1s;
     border-radius: 10px;
+    border: 1px solid rgb(218, 58, 0) ;
 }
-.listeEntrees:hover{
+.listeEntrees:hover,.listePlats:hover,.listeDesserts:hover{
     color: black;
+    box-shadow: 0px 5px 5px #161616;
+    transform:translateY(-10px)
 }
-.listePlats:hover{
-    color: black;
-}
-.listeDesserts:hover{
-    color: black;
-}
+
 .slideMenu{
     color: grey;
     font-weight: bold;
