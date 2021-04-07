@@ -27,13 +27,27 @@ body{
 .listeEntrees:hover{
     color: black;
 }
-.listePlats:active{
+.listePlats:hover{
     color: black;
 }
 .listeDesserts:hover{
     color: black;
 }
-
+.slideMenu{
+    color: grey;
+    font-weight: bold;
+    transition: 2s;
+    text-align: center;
+}
+/* .listeEntrees:hover .slideMenu{
+    color: transparent;
+}
+.listePlats:hover .slideMenu{
+    color: transparent;
+}
+.listeDesserts:hover .slideMenu{
+    color: transparent;
+} */
 
 
 /* Galerie */
