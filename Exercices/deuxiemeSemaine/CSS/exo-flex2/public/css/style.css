@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+
+ section{
+   background-color: slateblue;
+} 
+
+.flex-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.flex-item{
+    background-color: rgb(114, 163, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    height: 150px;
+   
+}
