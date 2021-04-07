@@ -30,21 +30,29 @@ section{
     height: 700px;
     
 }
-.flex-item2,.flex-item4{
+.flex-item3{
+    order: 1;
+}
+.flex-item4{
+    order: 3;
+}
+.flex-item3,.flex-item4{
     background-color: aquamarine;
     width: 25%;  
     padding: 10px; 
     margin: 10px;
     border-radius: 10px; 
 }
-.flex-item3{
+.flex-item2{
     background-color: olivedrab;
     width: 100%;
     padding: 10px;
     margin: 10px; 
     border-radius: 10px; 
+    order: 2;
 }
- 
+
+
 
 /* Manque les bords arrondi, le placement et la séparation */
 
