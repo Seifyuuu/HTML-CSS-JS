@@ -1,0 +1,29 @@
+section{
+    background-color: beige;
+    
+}
+.flex-container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.flex-item{
+    background-color: orangered;
+    height: 200px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}  
+
+ section>div>:first-child{
+    
+    flex-basis: 50px;
+} 
+
