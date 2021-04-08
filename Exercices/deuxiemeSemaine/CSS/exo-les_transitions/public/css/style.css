@@ -79,11 +79,10 @@ section{
     background-color: green;
     height: 150px;
     width: 50px;
-    transition: 3s;
+    transition: 3s ease-in-out;
 }
 .transition_07:active{
     margin: 80%;
-    transition-timing-function: ease;
 }
 /* fin exo 07 les transitions */
 
@@ -96,11 +95,10 @@ section{
 }
 .transition_08:active{
     margin: 80%;
-    transition-timing-function: ease;
     border-radius: 50%;
     height: 50px;
     background-color: purple;
-    }
+}
 /* fin exo 08 les transitions */
 
 /* début exo 09 les transitions */
