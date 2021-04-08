@@ -70,7 +70,7 @@ section{
     transition: 3s;
 }
 .transition_06:active{
-    margin: 300px;
+    margin-left: 300px;
 }
 /* fin exo 06 les transitions */
 
@@ -82,7 +82,7 @@ section{
     transition: 3s ease-in-out;
 }
 .transition_07:active{
-    margin: 80%;
+    margin-left: 80%;
 }
 /* fin exo 07 les transitions */
 
@@ -94,7 +94,7 @@ section{
     transition: 3s;
 }
 .transition_08:active{
-    margin: 80%;
+    margin-left: 80%;
     border-radius: 50%;
     height: 50px;
     background-color: purple;
@@ -124,8 +124,14 @@ section{
     height: 300px;
     background-color: yellow;
     transition: 10s;
-
 }
+
+.transition_10:hover{
+    border-radius: 100%;
+    background-color: orange;
+    margin-left: 80%;   
+}
+
 .transition_10_intrus{
     width: 30%;
     height: 30%;
@@ -134,11 +140,7 @@ section{
     transition: 10s;
 }
 
-.transition_10:hover{
-    border-radius: 100%;
-    background-color: orange;
-    margin-left: 80%;   
-}
+
 
 .transition_10:hover .transition_10_intrus{
     border-radius: 0%;
