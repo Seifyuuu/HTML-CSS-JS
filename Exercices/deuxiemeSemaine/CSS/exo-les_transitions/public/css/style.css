@@ -1,3 +1,11 @@
+section:nth-child(-n+9){
+    border-bottom: black solid 1px;
+}
+section{
+    padding-bottom: 50px;
+}
+
+
 /* début exo 01 les_hover_01 */
 .bg-color{
     height: 150px;
