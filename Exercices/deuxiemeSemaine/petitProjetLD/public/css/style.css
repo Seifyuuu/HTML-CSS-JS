@@ -30,6 +30,7 @@ body{
     color: black;
     box-shadow: 0px 5px 5px #161616;
     transform:translateY(-10px);
+    background-image: url(/public/img/banana.gif);    
 }
 .slideMenu{
     color: grey;
