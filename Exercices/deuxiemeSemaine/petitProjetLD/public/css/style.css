@@ -29,8 +29,7 @@ body{
 .listeEntrees:hover,.listePlats:hover,.listeDesserts:hover{
     color: black;
     box-shadow: 0px 5px 5px #161616;
-    transform:translateY(-10px);
-    background-image: url(/public/img/banana.gif);    
+    transform:translateY(-10px); 
 }
 .slideMenu{
     color: grey;
@@ -38,15 +37,15 @@ body{
     text-align: center;
     transition: 2s;
 }
-/* .listeEntrees:hover .slideMenu{
-    color: transparent;
+.listeEntrees:hover .slideMenu{
+    opacity: 0%;
 }
 .listePlats:hover .slideMenu{
-    color: transparent;
+    opacity: 0%;
 }
 .listeDesserts:hover .slideMenu{
-    color: transparent;
-} */
+    opacity: 0%;
+} 
 
 
 /* Galerie */

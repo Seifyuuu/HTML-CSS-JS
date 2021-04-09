@@ -1,0 +1,50 @@
+/* Exo 1 */
+.test{
+    max-width: max-content;
+    position: relative; 
+}
+.test::before{
+    height: 3px;
+    width: 0%;
+    position: absolute; 
+    content: "";
+    bottom: 0;  
+    transition: 1s;
+    background-color: red;
+}
+.test:hover::before{
+    width: 100%; 
+}
+/* fin Exo 1 */
+
+/* Exo 2 */
+.test1{
+    max-width: max-content;
+    position: relative; 
+}
+.test1::before{
+    height: 3px;
+    width: 0%;
+    position: absolute; 
+    content: "";
+    bottom: 0;  
+    transition: 1s;
+    background-color: red;
+    left: 50%;
+}
+.test1:hover::before{
+    width: 50%; 
+}
+
+
+
+
+
+
+
+
+/* fin Exo 2 */
+
+/* Exo 3 */
+
+/* fin Exo 3 */

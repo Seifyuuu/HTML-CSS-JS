@@ -1,0 +1,7 @@
+div {
+  animation: mymove 4s;
+}
+@keyframes mymove {
+    from {left: 0px;} /* 0% */
+    to {left: 200px;} /* 100% */
+}
