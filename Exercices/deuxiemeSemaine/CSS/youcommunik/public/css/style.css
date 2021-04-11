@@ -141,26 +141,35 @@ li a {
 .footer {
   background-color: black; 
   height: 300px;
-  display: flex;
+
   justify-content: center;
+  width: 100%;
 
 }
 .footerBox{
   display: flex;
+  height: 50%;
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 150px;
-  margin-left: 600px;
+  /* margin-bottom: 150px;
+  margin-left: 600px; */
 }
 .footerText{
   color: white;
 }
 .footerImages{
-  display: flex;
   width: 100%;
-  align-items: center;
+  height: 50%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.footerImagesBox{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 /* images */
 .barreBeige {
