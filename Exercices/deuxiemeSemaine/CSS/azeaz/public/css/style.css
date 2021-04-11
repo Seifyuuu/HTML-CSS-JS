@@ -1,0 +1,73 @@
+h1 {
+    font-size: 100px;
+}
+
+
+/* Exo 1 */
+
+#exo1 h1 {
+    position: relative;
+    max-width: max-content;
+}
+
+#exo1 h1::after {
+    content: "";
+    background: orange;
+    display: block;
+    position: absolute;
+    transition: width 1s;
+    width: 0;
+    height: 20px;
+}
+
+#exo1 h1:hover::after {
+    width: 100%;
+}
+
+/* exo 2 */
+
+#exo2 h1 {
+    max-width: max-content;
+}
+
+#exo2>h1::after {
+    content: "";
+    background: green;
+    display: block;
+    margin: 0 auto;
+    transition: width 1s;
+    width: 0;
+    height: 20px;
+}
+
+#exo2>h1:hover::after {
+    width: 100%;
+}
+
+
+/* exo 3 */
+
+
+
+
+#exo3 h1 {
+    max-width: max-content;
+    position: relative;
+}
+
+#exo3 h1::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: cyan;
+    bottom: 0;
+    transition: height 2s;
+    width: 100%;
+    height: 0;
+}
+
+#exo3>h1:hover::before {
+    height: 100%;
+}
+
+
