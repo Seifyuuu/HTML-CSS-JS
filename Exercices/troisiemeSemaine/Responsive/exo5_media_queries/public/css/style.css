@@ -1,0 +1,70 @@
+.box{
+    width: 600px;
+    height:600px;
+    background-color: purple;
+    display: flex;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+.square2{
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+}
+.square3{
+    width: 75px;
+    height: 75px;
+    background-color: pink;
+}
+
+/* switch1 */
+@media (min-width:1024px) {
+    .square{
+    width: 34%;
+    height: 33%;
+    background-color: red;
+    }
+}
+@media (min-width:1024px) {
+    .square2{
+    width: 33%;
+    height: 33%;
+    background-color: green;
+    }
+}
+@media (min-width:1024px) {
+    .square3{
+    width: 33%;
+    height: 33%;
+    background-color: orange;
+    }
+}
+
+/* switch2 */
+@media (min-width:600px) and (max-width:1023px) {
+    .square{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    }
+}
+@media (min-width:600px) and (max-width:1023px) {
+    .square2{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    }
+}
+@media (min-width:600px) and (max-width:1023px) {
+    .square3{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    }
+}
+
+
