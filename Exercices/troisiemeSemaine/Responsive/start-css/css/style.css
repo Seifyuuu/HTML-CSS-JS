@@ -138,6 +138,15 @@ footer>div{
 
 /* Responsive */
 
-@media (min-width: 598px) and (max-width:1023px) {
-    
+@media (max-width:425px) {
+    footer{
+        height: 80%;
+    }
+    .textAbout{
+        width: 100%;
+    }
+    .navbar2{
+        width: 120%;
+        padding-right: 3%;
+    }
 }
