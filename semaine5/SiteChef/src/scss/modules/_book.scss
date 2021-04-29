@@ -1,0 +1,62 @@
+#book{
+    background: url(../../../public/images/main_bg.jpg);
+    border-radius: 50px;
+   
+}
+
+// corriger le border // 
+.form{
+    background: url(../../../public/images/book_table_bg.jpg) top no-repeat;
+    height: 600px;
+    width: 900px;
+    
+
+    input, select{
+        border: none;
+        width: 250px;
+        height: 50px;
+        padding-left: 10px;
+        margin-top: 15px;
+        border-radius: 10px;
+
+        @media only screen and (min-width: 768px) and (max-width:1440px){
+            height: 25px;
+            width: 125px;
+        }
+
+        @media only screen and (min-width: 425px) and (max-width: 767px){
+            height: 25px;
+            width: 150px;
+        }
+
+        
+    }
+
+    #btnBook{
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width:1440px){
+        height: 300px;
+        width: 450px;
+    }
+
+    @media only screen and (min-width: 425px) and (max-width: 767px){
+        height: 600px;
+        width: 275px;
+    }
+}
+.boxBlog{
+    img{
+        border-radius: 20px;
+        border: solid 3px lightgrey;
+    }
+
+
+    
+}
+#btnBlog{
+    padding: 10px 20px;
+    border-radius: 20px;
+}

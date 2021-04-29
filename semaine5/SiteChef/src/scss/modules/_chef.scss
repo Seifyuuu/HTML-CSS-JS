@@ -1,0 +1,15 @@
+#chef {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/images/team_background.jpg") no-repeat center;
+    background-size: cover;
+    p{
+        border-top: solid rgba(255, 255, 255, 0.3) 1px;
+    }
+        
+    .imgChef{
+        @media only screen and (min-width: 768px) and (max-width: 1440px){
+            height: 250px;
+            width: 150px;
+        }
+
+    }
+}
