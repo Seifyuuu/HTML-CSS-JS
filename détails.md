@@ -3,5 +3,6 @@ Mois 1 (29/03 - 30/04) :
 - CSS 
 - GIT (BASH)
 - RESPONSIVE 
-- SASS&SCSS 
+- SASS & SCSS
+- Site du chef 
 - Intro JS
