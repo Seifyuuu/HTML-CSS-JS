@@ -1,3 +1,7 @@
-Repo Molengeek
-
-Mois 1 : HTML / CSS / RESPONSIVE / SASS&SCSS / Intro JS
+Mois 1 (29/03 - 30/04) : 
+- HTML 
+- CSS 
+- GIT (BASH)
+- RESPONSIVE 
+- SASS&SCSS 
+- Intro JS
