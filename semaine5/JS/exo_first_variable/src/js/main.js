@@ -1,5 +1,5 @@
-var x = "John Doe";
+let x = "John Doe";
 console.log(x);
 
-var y = "8";
+let y = "8";
 console.log(y);
