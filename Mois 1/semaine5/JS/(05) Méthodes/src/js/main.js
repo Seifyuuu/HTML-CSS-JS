@@ -21,8 +21,13 @@ console.log(phrase.charAt(phrase.length-1));
 
 ///### 6. Enlever "Bonjour" de la phrase
 
-let phrase2 = phrase.replace('Bonjour',' ');
+//méthode 1 
+//phrase = phrase.replace('Bonjour ', '');
+let phrase2 = phrase.replace('Bonjour ','');
 console.log(phrase2);
+
+//méthode 2
+//phrase = phrase.substr(8);
 
 ///### 7. Remettre "Bonjour" au debut de la phrase grâce à une méthode
 
@@ -33,10 +38,14 @@ console.log(phrase3);
 let phrase4 = phrase3.substr(0,7);
 console.log(phrase4);
 
+//méthode2 : 
+// phrase = phrase.slice(0,8)
+
+
 ///### 9. Remplacer dans la phrase le mot "number" par le mot "string"
 let zin2 = zin.replace('Number', 'string');
 console.log(zin2);
 
 ///### 10. Bonus : Donner un chiffre aléatoire
-let zin3 = zin2 + Math.random();
-console.log(zin3);
+let chiffre= (Math.random() * 10);
+console.log(chiffre);
