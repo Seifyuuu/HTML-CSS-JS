@@ -1,11 +1,11 @@
 Mois 1 (29/03 - 30/04) : 
-- HTML 
-- CSS 
-- GIT (BASH)
-- RESPONSIVE 
-- SASS & SCSS
-- Site du chef 
-- Intro JS
+- HTML (Semaine 1)
+- CSS (Semaine 1&2)
+- BOOTSTRAP (Semaine 3)
+- RESPONSIVE (Semaine 4)
+- SASS & SCSS (Semaine 4)
+- Site du chef (Semaine 5)
+- Intro JS (Semaine 5)
 
 Mois 2 (30/04 - ??/??) :
-- JS 
+- JS (Semaine 6)
