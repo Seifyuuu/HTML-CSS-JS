@@ -6,3 +6,6 @@ Mois 1 (29/03 - 30/04) :
 - SASS & SCSS
 - Site du chef 
 - Intro JS
+
+Mois 2 (30/04 - ??/??) :
+- JS 
