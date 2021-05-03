@@ -13,6 +13,7 @@ console.log(semaine.length);
 // push() permet d'ajouter un élément en fin de tableau
 semaine.push("Jeudredi");       
 console.log(semaine);
+
 // pop() permet de retirer un élément en fin de tableau
 semaine.pop();
 console.log(semaine);
@@ -20,6 +21,7 @@ console.log(semaine);
 // unshift() ajoute un élément en début de tableau
 semaine.unshift("Jeudredi");
 console.log(semaine);
+
 // shift() retire un élément en début de tableau
 semaine.shift();
 console.log(semaine);
@@ -28,7 +30,7 @@ console.log(semaine);
 // le premier spécifie la position de départ (où rajouter ou remplacer)
 // le deuxième spécifie combien d'éléments à remplacer 
 // le dernier spécifie ce qu'il faut ajouter/remplacer
-semaine.splice(3, 2, "Jeudredi", "Lundimanche");
+    semaine.splice(3, 2, "Jeudredi", "Lundimanche");
 console.log(semaine);
 
 // join() concatène tous les éléments d'un tableau. Par défaut, le séparateur est une virgule, mais on peut le changer en le spécifiant dans les parenthèses de la méthode
