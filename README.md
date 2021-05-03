@@ -1,6 +1,6 @@
 Mois 1 (29/03 - 30/04) : 
 - HTML (Semaine 1)
-- CSS (Semaine 1&2)
+- CSS (Semaine 1 & 2)
 - BOOTSTRAP (Semaine 3)
 - RESPONSIVE (Semaine 4)
 - SASS & SCSS (Semaine 4)
