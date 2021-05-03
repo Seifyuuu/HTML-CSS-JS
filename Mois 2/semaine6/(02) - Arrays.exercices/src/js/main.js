@@ -16,3 +16,6 @@ console.log(test.length);
 //## Afficher les éléments de l'array 1 par 1
 console.log(test.join(" - "));
 
+//## Ajouter et afficher votre prénom a l'array
+test.unshift("Seifedin");
+console.log(test);

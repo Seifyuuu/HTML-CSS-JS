@@ -3,3 +3,4 @@
 ##  Afficher les éléments de l'array
 ## Afficher le nombre d'éléments de l'array
 ## Afficher les éléments de l'array 1 par 1
+## Ajouter et afficher votre prénom a l'array
