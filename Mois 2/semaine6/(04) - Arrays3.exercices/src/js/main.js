@@ -22,8 +22,6 @@ console.log(monTab);
 
 
 
-
-
 //2°
 
 let chiffres = [4, 5, 2, 1, 3];
@@ -41,30 +39,6 @@ console.log(chiffres2);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //# 3°
 //- ## Créez un tableau vide
 let tab = []
@@ -74,6 +48,12 @@ console.log(tab);
 //- ## Affichez le contenu de l'array et sa taille
 console.log(tab.length);
 //- ## Trouvez l'index de chaque élément
+console.log(tab.indexOf("elem10"));
 //- ## Utiliser une methode qui permet de supprimer un element grâce à l'index
+tab.splice(4,1);
 //- ## Créez un tableau vide et rajoutez toutes les personnes de la classe. Faite un console.log de quelqu'un aléatoirement dans le tableau
+let classe = ["elem1","elem2", "elem3", "elem4", "elem5", "elem6", "elem7", "elem8", "elem9", "elem10", "elem11", "elem12",];
+console.log(classe[Math.random()*classe.length]);
 //- ## En une ligne supprimer 'Nathan' du tableau
+classe.splice(classe.indexOf("Nathan"), 1 );
+console.log(classe);
