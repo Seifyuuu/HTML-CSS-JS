@@ -9,5 +9,5 @@ Mois 1 (29/03 - 30/04) :
 -> GIT Bash
 -> Site du chef (Semaine 5)
 
-Mois 2 (30/04 - ??/??) :
+Mois 2 (01/05 - ??/??) :
 - JS (Semaine 6)
