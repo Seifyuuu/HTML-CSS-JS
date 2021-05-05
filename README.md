@@ -1,5 +1,6 @@
 Mois 1 (29/03 - 30/04) : 
 - HTML (Semaine 1)
+- GIT Bash
 - CSS (Semaine 1 & 2)
 - Bootstrap (Semaine 3)
 - Responsive (Semaine 4)
