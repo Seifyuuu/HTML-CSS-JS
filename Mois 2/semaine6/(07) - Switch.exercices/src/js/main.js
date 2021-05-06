@@ -26,4 +26,24 @@ switch (temps) {
 
 // Exo 3 
 
-  
+let nbr1 = parseInt(prompt("Donne un chiffre"));
+let ope = prompt("Tu veux faire quoi ? ( + - * / )")
+let nbr2 = parseInt(prompt("Donne un deuxième chiffre"));
+
+switch (ope) {
+  case ("+"):
+    alert(nbr1 + nbr2)
+    break;
+  case ("-"):
+    alert(nbr1 - nbr2)
+    break;
+  case ("/"):
+    alert(nbr1 / nbr2)
+    break;
+  case ("*"):
+    alert(nbr1 * nbr2)
+    break;
+  default: 
+  alert("soit correct")
+    break;
+}
