@@ -13,5 +13,5 @@ Mois 1 (29/03 - 30/04) :
 
 
 Mois 2 (01/05 - ??/??) :
-- JS (Semaine 6) == math., arrays, conditions, switch, boucles for
-- JS (Semaine 7) == boucles forEach,
+- JS (Semaine 6) == math., arrays, conditions, switch, boucles for/for...in
+- JS (Semaine 7) == boucles forEach, while, 
