@@ -1,0 +1,37 @@
+#chef {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/images/team_background.jpg") no-repeat center;
+    background-size: cover;
+    p{
+        border-top: solid rgba(255, 255, 255, 0.3) 1px;
+    }
+        
+    .imgChef{        
+        @media only screen and (min-width: 768px) and (max-width: 1440px){
+            height: 250px;
+            width: 150px;
+        }
+
+    }
+    .hoverChef{
+        max-width: max-content;
+        position:relative;
+    }
+    .hoverChef::before{
+        content:"Chef";
+        color:honeydew;
+        font-size: 20px;
+        background-color: $danger;
+        width: 100%;
+        height: 0;
+        transition: 1s;
+        position:absolute;
+        bottom:0;
+        z-index: 100;
+        opacity: 80%;
+    }
+    .hoverChef:hover::before{
+        content:"J'ai travaillé là bas, j'ai ??? d'années d'expériences.";
+        height: 25%;
+        z-index: 100;
+    }
+}

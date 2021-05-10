@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+<body>
+    
+<!-- Header -->
+ 
+<header class="">
+    <nav class="navbar w-100 navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <div class="container-fluid d-flex justify-content-center align-items-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">Home</li>
+                    <li class="nav-item">About Us</li>
+                    <li class="nav-item">Menu List</li>
+                    <li class="nav-item">Team</li>
+                </ul>
+                <img src="./public/images/logo.png" alt="" class="mx-5 d-none d-lg-inline-block">
+                <ul class="navbar-nav">
+                    <li class="nav-item">Reservation</li>
+                    <li class="nav-item">Blog</li>
+                    <li class="nav-item">Testimonials</li>
+                    <li class="nav-item">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <button class="navbar-toggler navbar-dark bg-danger mx-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="titreTypo text-center d-flex justify-content-center flex-column mt-5">
+                <h1 class="text-white">
+                    Whatever your <span class="fs-big text-uppercase">occasion</span>,<br>
+                    <span class="fs-big text-uppercase text-danger">Taste</span> <span class="fs-big text-uppercase">makes</span>
+                    it ones<br>
+                    to <span class="fs-big text-uppercase">remember!</span>
+                </h1>
+                <div>
+                    <button class="btn-white my-3 rounded-pill">Purchase Theme</button>
+                    <button class="btn-danger rounded-pill">Learn More</button>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center mt-5 text-white">
+            <img src="./public/images/crabe.png" alt="">
+          </div>
+          <div class="carousel-item text-center mt-5 text-white">
+            <img src="./public/images/crabe.png" alt="">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!-- <div class="titreTypo text-center d-flex justify-content-center flex-column mt-5">
+        <h1 class="text-white">
+            Whatever your <span class="fs-big text-uppercase">occasion</span>,<br>
+            <span class="fs-big text-uppercase text-danger">Taste</span> <span class="fs-big text-uppercase">makes</span>
+            it ones<br>
+            to <span class="fs-big text-uppercase">remember!</span>
+        </h1>
+        <div>
+            <button class="btn-white my-3 rounded-pill">Purchase Theme</button>
+            <button class="btn-danger rounded-pill">Learn More</button>
+        </div>
+    </div> -->
+</header>
+
+
+<!-- Menu / Section 1  -->
+
+
+<section id="menu">
+        <div class="background py-5">
+            <div class="container bg-light text-center position-relative border">  
+                <!-- <img src="./public/images/box-left-top.png" alt="" class="start-0 position-absolute">
+                <img src="./public/images/box-right-top.png" alt="" class="end-0 position-absolute">
+                <img src="./public/images/box-bottom-left.png" alt="" class="start-0 bottom-0 position-absolute">
+                <img src="./public/images/box-bottom-right.png" alt="" class="end-0 bottom-0 position-absolute">  -->
+                <div class="">
+                    <article>
+                        <h2 class="pt-4 titreTypo"><span class="text-uppercase text-danger">OUR</span> Story</h2>
+                        <p class="mx-auto w-50 pb-5 pt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam sed quas, illum
+                            repudiandae hic voluptatum consectetur ex voluptates excepturi autem laudantium voluptas
+                            sit, eligendi numquam modi atque vitae facere eius fugiat sint, ducimus dolore tenetur.
+                            Natus aperiam optio adipisci eligendi sapiente? Dolores nulla mollitia, id illo ipsum
+                            voluptatem suscipit vitae adipisci ducimus cumque est totam repellendus assumenda? Rerum
+                            minima sed sint quidem, doloribus vitae corporis quo illum, neque quia aliquid quasi
+                            eveniet. Totam, necessitatibus!
+                        </p>
+                    </article>
+                    <h2 class="titreTypo"><span class="text-uppercase text-danger">Our</span> Menu List</h2>
+
+
+
+
+
+
+
+                    
+
+                    <div class="boxBoite d-flex flex-md-row">
+                        <div>
+                            <div class="nav nav-menu flex-column nav-pills h-100" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <a class="nav-link bg-light" id="v-pills-breakfast-tab"
+                                    href="#v-pills-breakfast-tab">
+                                    <i class="fas fa-mug-hot fa-4x"></i>
+                                    <h3 class="titreTypo">Breakfast</h3>
+                                </a>
+                                <a class="nav-link" id="v-pills-lunch-tab" href="#v-pills-lunch-tab"
+                                    role="tab">
+                                    <i class="fas fa-hamburger fa-4x"></i>
+                                    <h3 class="titreTypo">Lunch</h3>
+                                </a>
+                                <a class="nav-link" id="v-pills-snack-tab" href="#v-pills-snack-tab"
+                                    role="tab">
+                                    <i class="fas fa-concierge-bell fa-4x"></i>
+                                    <h3 class="titreTypo">Snacks</h3>
+                                </a>
+                                <a class="nav-link" id="v-pills-dinner-tab" href="#v-pills-dinner-tab"
+                                    role="tab" >
+                                    <i class="fas fa-mug-hot fa-4x"></i>
+                                    <h3 class="titreTypo">Dinner</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="colonneMenu px-3">
+                            <div class="tab-content menu-list mt-4" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active">
+                                   
+                                
+                                    <div class="row mx-1 row-cols-1 row-cols-lg-2 menu-list text-start gx-3">
+                                        <div class="yolo text-center">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="yolo text-center text-sm-start">
+                                            <div class="bamboo menu-item d-flex align-items-center flex-column flex-sm-row">
+                                                <img src="./public/images/menu_image_1.jpg" alt="" class="rounded-circle ml-1">
+                                                <div class="">
+                                                    <h6>Deer Steak with Potatoes</h6>
+                                                    <p>Welcome to Risotto restaurant website. Here we try to share
+                                                        our</p>
+                                                </div>
+                                                <div class="prix">
+                                                    $25
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-lunch" role="tabpanel"
+                                    aria-labelledby="v-pills-lunch-tab">
+                                    <span>salut</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior correction à faire
+("tab-content" id="v-pills-tabContent") -->
+
+
+
+<!-- Chefs / Section 2 -->
+
+<section id="chef">
+    <div class="container pb-3">
+        <h2 class="titreTypo pt-5 pb-5 text-light text-center"><span class="text-uppercase text-danger">MEET</span> Our Chef</h2>
+
+        <div class="row mx-lg-6 mx-mt-10 text-center">
+            <div class="col-md-3 col-12">
+                <div class="hoverChef"><img class="imgChef" src="./public/images/chef1.png" alt=""></div>
+                <p class="text-center text-light"></p>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="hoverChef"><img class="imgChef" src="./public/images/chef2.png" alt=""></div>
+                <p class="text-center text-light"></p>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="hoverChef"><img class="imgChef" src="./public/images/chef3.png" alt=""></div>
+                <p class="text-center text-light"></p>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="hoverChef"><img class="imgChef" src="./public/images/chef4.png" alt=""></div>
+                <p class="text-center text-light"></p>
+            </div>
+        </div>
+
+</section>
+
+
+<!-- Book / Sections 3 -->
+
+
+<section id="book">
+    <div class="py-5">
+        <div class="bg-white container text-center position-relative border">
+            <div class="content-box pb-7">
+                <h2 class="titreTypo pt-5 pb-5"><span class="text-uppercase text-danger">Book</span> Your Table</h2>
+                <form class="form mx-auto p-lg-5 mt-10 mb-10">
+                    <p class="text-light mb-8">For any query please call us at : <span
+                            class="fw-bold text-uppercase">+91-1234567890</span></p>
+                    <div class="row row-cols-1 row-cols-md-2 mx-md-6">
+                        <div class="col">
+                            <input name="" placeholder="Enter Full Name" id=""></input>
+                        </div>
+                        <div class="col">
+                            <input name="" placeholder="Enter ID" id=""></input>
+                        </div>
+                        <div class="col">
+                            <input name="" placeholder="Phone Number" id=""></input>
+                        </div>
+                        <div class="col">
+                            <select name="" id="">
+                                <option selected>How many people ?</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <input name="" placeholder="Date" id=""></input>
+                        </div>
+                        <div class="col">
+                            <input name="" placeholder="Time" id=""></input>
+                        </div>
+                        <div class="col">
+                            <select name="" id="">
+                                <option selected>Occasion</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="" id="">
+                                <option selected>KOUISINE</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="btnBook" class="mt-5 btn-danger">
+                        Book Now
+                    </button>
+
+                </form>
+
+                <h2 class="titreTypo pb-3"><span class="text-uppercase text-danger">Our</span> Blog</h2>
+                <div class="boxBlog row cols-2 gx-2 mx-md-10 mt-4">
+                    <div class="col">
+                        <div class="text-start">
+                            <div class="position-relative text-center">
+                                <img class="img-fluid" src="./public/images/blog_img1.jpg" alt="">
+                                <div class="date-blog"><span>12</span> april 2017/ <span>20</span> comment/
+                                    <span>35</span>
+                                </div>
+                            </div>
+                            <div class="mx-7 mt-6">
+                                <h5 class="fw-bold">Lorem Ipsum</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <br>Sapiente, placeat!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-start">
+                            <div class="position-relative text-center">
+                                <img class="img-fluid" src="./public/images/blog_img2.jpg" alt="">
+                                <div class="date-blog"><span>12</span> april 2017/ <span>20</span> comment/
+                                    <span>35</span>
+                                </div>
+                            </div>
+                            <div class="mx-7 mt-6">
+                                <h5 class="fw-bold">Lorem Ipsum</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                <br>Sapiente, placeat!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button id="btnBlog" class="btn-danger mb-5 mt-3">Know More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Testimonials / Section 4 -->
+
+
+<section class="testimonials">
+    <div class="container pb-3">
+        <h2 id="h2Testi" class="titreTypo pt-5 text-light mt-0"><span class="text-uppercase text-danger">Client</span> Testimonials</h2>
+        <div class="row text-center mx-lg-8 mx-md-0 pb-md-5 mt-lg-10">
+            <div class="col-md-2 d-md-block d-none">
+                <img src="./public/images/testimonial1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="client text-left text-light">
+                    <h4>Lorem Ipsum</h4>
+                    <span class="text-danger">Manager</span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero libero accusamus voluptatibus
+                        corrupti provident illo?
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-md-0 mt-5">
+                <div class="client text-left text-light">
+                    <h4>Lorem Ipsum</h4>
+                    <span class="text-danger">Manager</span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero libero accusamus voluptatibus
+                        corrupti provident illo?
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2 d-md-block d-none">
+                <img src="./public/images/testimonial1.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact / Section 5 -->
+
+<section class="contact pt-5    ">
+<div class="container pb-5 boxContact">
+    <h2 class="mb-5 text-center titreTypo"><span class="text-uppercase text-danger">Our</span> Contact</h2>
+    <div class="contact-box text-center mx-auto bg-danger mt-10 col-md-4">
+        <i class="fas fa-map-marker-alt fa-3x"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis velit deleniti similique.</p>
+        <i class="fas fa-phone fa-3x"></i>
+        <p>+91-9876543210</p>
+        <i class="fas fa-envelope fa-3x"></i>
+        <p>abc@abc.com</p>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer-up pt-5 text-light">
+        <div class="container pb-5">
+            <div class="row justify-content-center mx-lg-6 mx-0">
+                <div class="col">
+                    <h4 class="titreTypo">About us</h4>
+                    <p class="mt-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis blanditiis dolor alias
+                        dolores aliquam, aperiam, quam aut quasi ut fugit error a quod! Fuga esse reiciendis maiores
+                        illum? Dolor, dolorem!
+                    </p>
+                    <ul class="d-flex justify-content-around list-unstyled w-50">
+                        <li>
+                            <i id="icons" class="fab fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-google-plus-g"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-pinterest-p"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin-in"></i>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col px-3">
+                    <h4 class="titreTypo">Instagram</h4>
+                    <div class="row row-cols-lg-4 row-cols-2 gy-2 mt-2 gx-2 mb-3">
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="titreTypo">Popular Tags</h4>
+                    <div>
+                        <span class="badge bg-danger">Restaurant</span>
+                        <span class="badge bg-danger">Responsive design</span>
+                        <span class="badge bg-danger">Hotel</span>
+                        <span class="badge bg-danger">Blog section</span>
+                        <span class="badge bg-danger">SEO</span>
+                        <span class="badge bg-danger">Cuisine</span>
+                        <span class="badge bg-danger">Graphic</span>
+                        <span class="badge bg-danger">Food</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg-danger" style="height:90px">
+    </div>
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+</body>
+</html>
