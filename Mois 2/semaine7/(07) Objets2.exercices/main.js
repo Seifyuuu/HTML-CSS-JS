@@ -5,7 +5,7 @@ let perso1 = {
     prenom : "Morsay",
     nom : "Truand2laGalere",
     sePresenter(){
-        console.log(`Bonjour je m'appelle" ${this.prenom} ${this.nom}`);
+        console.log(`Bonjour je m'appelle ${this.prenom} ${this.nom}`);
     }
 }
 perso1.sePresenter()
@@ -23,12 +23,8 @@ let chose = {
     age : "",
 
     demandeAge(){
-        age = parseInt(prompt("quel âge?"));
+        this.age = parseInt(prompt("quel âge?"));
+        alert("Cartman a " + this.age + "ans");
     },
-    confirmAge(){
-        alert("Cartman a " + age + "ans");
-    }
 }
-
 chose.demandeAge()
-chose.confirmAge()
