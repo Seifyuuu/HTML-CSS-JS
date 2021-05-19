@@ -1,0 +1,35 @@
+#boiteJaune{
+height: 200px;
+background-color: yellow;
+}
+
+#boiteRouge{
+    width: 25%;
+    padding: 35px;
+    background-color: red;
+}
+
+#boiteVerte{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#boiteRose{
+    background-color: pink;
+    height: 300px;
+    width: 1800px;
+}
+
+#boiteNoire{
+    background-color: black;
+    margin-left: 600px;
+    height: 200px;
+    width: 600px;
+} 
+
+#boiteBleue{
+    background-color: blue;
+    padding: 50px;
+    margin: 50px;
+}

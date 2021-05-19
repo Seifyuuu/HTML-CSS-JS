@@ -1,0 +1,42 @@
+#boxOrange{
+    background-color: orange;
+    height: 500px;
+}
+
+#pSolo {
+    background-color: white;
+    width: 190px;
+    margin-left: 910px;
+    margin-top: 400px;
+}
+
+#boxJaune{
+    background-color: yellow;
+    height: 550px;
+}
+
+#boxRose{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 30px;
+    bottom: 0px;
+}
+
+#boxVerte{
+    background-color: green;
+    height: 1200px;
+}
+
+#boxBleue{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+body{
+    margin: 0;
+}

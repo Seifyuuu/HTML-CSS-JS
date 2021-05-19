@@ -46,7 +46,6 @@ bus1.embarquer(perso1);
 // ### 8h45 Vous êtes à MolenGeek.
 bus1.personnes.pop()
 molengeek.personnes.push(perso1)
-console.log(molengeek);
 
 // ### 12h45 Vous sortez de MolenGeek, vous prenez le bus pour aller au snack.
 molengeek.personnes.pop()

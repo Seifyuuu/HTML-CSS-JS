@@ -1,0 +1,24 @@
+#Titre {
+    color: red;
+    text-align: center;
+    font-size:32px;
+}
+
+#h2Soustitre {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+}
+
+#parDeuxieme{
+    font-weight: bold;
+}
+
+#mot{
+    color: red;
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(237, 220, 197);
+}

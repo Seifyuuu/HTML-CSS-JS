@@ -1,0 +1,89 @@
+body{
+    background-color: lightslategray;
+    font-family: 'Barlow', sans-serif;
+}
+
+nav a{
+    margin-left: 370px;
+    padding-right: 370px;
+}
+
+#msgAccueil{
+    text-align: center;
+    font-size: 50px;
+    color: gainsboro;
+}
+
+#fauxTitre{
+    text-decoration: line-through;
+    text-align: center;
+    color: silver;
+}
+
+.photosGFX{
+   text-align: center;
+   
+}
+
+.photosFood{
+    text-align: center;
+}
+
+.img-fluid{
+    height: 300px;
+    margin-top: 30px;
+}
+
+.photosFood{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sousTitre{
+    text-align: center;
+    color: silver;
+}
+
+.monCarousel{
+   text-align: center;
+  }
+
+.photoCarousel{
+    width: 420px;
+}
+
+.info{
+    background-color: rgb(161, 209, 211);
+}
+
+.secondary{
+    background-color: rgb(83, 124, 138);
+}
+
+.primary{
+    background-color: rgb(161, 209, 211);
+}
+
+.warning{
+    background-color: rgb(83, 124, 138);
+    margin-left: -7px;
+}
+
+.nomFooter{
+    margin: 175px;
+
+}
+.carouselSlide{
+margin-top: -25px;
+}
+
+.container {
+    border-color:  rgba(82,168,236,.8);
+    box-shadow: 0 0px 0px rgba(82,168,236,.8) inset, 0 0 8px rgba(82,168,236,.8);
+    outline: 0 none;
+  }
+
+  #p2{
+    color: gainsboro;
+}
