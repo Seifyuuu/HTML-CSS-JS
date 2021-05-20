@@ -36,6 +36,7 @@ class Bus{
     }
 }
 
+
 // ### Créez une instance de Bus. 
 let bus1 = new Bus([], 10)
 
