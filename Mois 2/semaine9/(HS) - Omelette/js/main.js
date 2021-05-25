@@ -1,5 +1,4 @@
-import { perso1, maison, aldi, oignon, oeuf, epice, fromage } from "./class.js";
-
+import { perso1, maison, aldi, oignon, oeuf, epice, fromage, recipient, couteau, poele } from "./class.js";
 
 
 // >>1. Pour dire que le personnage est à la maison :
@@ -33,5 +32,32 @@ console.log(`${perso1.nom} est à la ${perso1.lieu}`);
 // >>1. Mettre chaque ingrédient dans le bol (1 à 1 donc avec une boucle)
 // >>1. Vérifier que les ingrédients ne se trouvent plus dans le panier on a oublié de le rapporter x)
 // >>1. Afficher un petit message de chaque ingrédient qu'on met dans le bol.
+perso1.remplirBol()
+console.log(perso1.mainDroite);
+
+// >>1. Retourner à l'épicerie pour rapporter le panier. (donc seDeplacer puis enlever le panier de la main droite et le remetre dans les paniers de l'épicerie.)
+// >>1. Afficher un petit message
+// >>1. Retourner à la maison pour continuer l'omelette
+// >>1. Afficher un petit message
+
+perso1.seDeplacer(aldi);
+perso1.seDeplacer(maison);
 
 
+
+
+// >>1. Vérifier chaque ingrédient dans le bol et le couper seulement s'il est entier ! Pour ça on utilise la méthode couper de personnage
+// >>1. Mélanger le contenu du bol avec la méthode melanger. on va nommer ce mélange une 'omelette' (à passer en param).
+// >>1. Afficher un message avec le nouveau mélange
+console.log(perso1.lieu);
+perso1.couper()
+recipient.melanger("Omelette")
+console.log(recipient.contenu);
+
+
+
+// >>1. vider le contenu du bol dans la poele. Il ne doit plus rien avoir dans le bol et y avoir juste l'omelette pas cuite.
+// >>1. Afficher un message final, notre omelette est cuite :)
+recipient.vider()
+console.log(poele.contenu);
+poele.cuir()
