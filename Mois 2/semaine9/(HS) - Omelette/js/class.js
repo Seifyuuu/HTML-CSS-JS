@@ -50,8 +50,8 @@ class Personne{
 }
 class Endroit{
     constructor(nom, personnes) {
-     this.nom = nom;
-     this.personnes = personnes;
+        this.nom = nom;
+        this.personnes = personnes;
     }
 }
 class Epicerie extends Endroit{
@@ -80,10 +80,6 @@ let oeuf = new Produits("oeuf", "entier", 2);
 let epice = new Produits("epice", "moulu", 5);
 let fromage = new Produits("fromage", "râpé", 10);
 let aldi = new Epicerie("aldi", [], [], [], [], [oignon, oeuf, epice, fromage]);
-
-
-
-
 let poele = {
     nom : "poele200",
     contenu : [],
@@ -94,8 +90,6 @@ let poele = {
         }, 5000);
     }
 }
-
-
 let recipient = {
     nom : "bol", 
     contenu : [], 
@@ -114,10 +108,6 @@ let recipient = {
     }
 
 };
-
-
-
-
 let couteau = {
     nom : "couteau", 
     decouper(produits){
