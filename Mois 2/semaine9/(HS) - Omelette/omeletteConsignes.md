@@ -35,7 +35,7 @@
 
 
 
-
+ 
 # DEBUT DE L'OMELETTE
 >>1. Pour dire que le personnage est à la maison :
 >>1. Avec l'objet personnage, utiliser la method seDeplacer et de passer en paramètre l'objet maison
