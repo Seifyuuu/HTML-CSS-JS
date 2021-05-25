@@ -60,10 +60,6 @@
 
 
 
->>1. mettre chaque ingrédient dans le bol (1 à 1 donc avec une boucle)
->>1. Vérifier que les ingrédients ne se trouvent plus dans le panier (oups ! on a oublié de le rapporter x)
->>1. Afficher un petit message de chaque ingrédient qu'on met dans le bol.
-
 
 
 >>1. Retourner à l'épicerie pour rapporter le panier. (donc seDeplacer puis enlever le panier de la main droite et le remetre dans les paniers de l'épicerie.)

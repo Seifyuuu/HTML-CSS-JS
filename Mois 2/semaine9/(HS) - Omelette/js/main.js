@@ -19,5 +19,19 @@ console.log(`Dans mon panier de la main droite j'ai : ${perso1.mainDroite}`);
 
 // >>1. Je créer une boucle qui va prendre chaque élément (ingrédient) du contenu de l'épicerie (1 à 1) et en faire une COPIE dans le panier du personnage
 //>>1. Afficher un message à chaque ingrédient pris
-perso1.payerProduit();
-console.log(aldi);
+perso1.remplirPanier();
+
+// >>1. Payer chaque ingrédient récupéré dans le panier. Avec une boucle aussi, on va les passer 1 à 1 dans la fonction payerArticle()
+// >>1. Afficher un message de ce qu'il reste d'argent sur le personnage.
+// >>1. rentrer à la maison (comme ça on pourra cuisiner)
+perso1.payerPanier();
+console.log(perso1.argent);
+perso1.seDeplacer(maison);
+console.log(`${perso1.nom} est à la ${perso1.lieu}`);
+
+
+// >>1. Mettre chaque ingrédient dans le bol (1 à 1 donc avec une boucle)
+// >>1. Vérifier que les ingrédients ne se trouvent plus dans le panier on a oublié de le rapporter x)
+// >>1. Afficher un petit message de chaque ingrédient qu'on met dans le bol.
+
+

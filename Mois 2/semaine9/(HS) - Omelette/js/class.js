@@ -16,9 +16,20 @@ class Personne{
         this.prendPanier = () => {
             this.mainDroite = aldi.panier1;
         }
-        this.payerProduit = () => {
+        this.remplirPanier = () => {
             if (this.lieu == "aldi") {
-                
+                for (const i in aldi.stock) {
+                    this.mainDroite.push(aldi.stock[i])
+                    console.log(`Zac vient de de mettre ${aldi.stock[i].nom} dans le panier`);
+                }
+            }
+        }
+        this.payerPanier = () => {
+            if (this.lieu == "aldi") {
+                for (const i in perso1.mainDroite) {
+                    console.log(`Zac vient de payer ${perso1.mainDroite[i].prix}€ pour ${perso1.mainDroite[i].nom}`);
+                    this.argent = this.argent - perso1.mainDroite[i].prix
+                }
             }
         }
         this.couper = () => {
@@ -77,5 +88,5 @@ let oignon = new Produits("oignon","entier", 1);
 let oeuf = new Produits("oeuf", "entier", 2);
 let epice = new Produits("epice", "moulu", 5);
 let fromage = new Produits("fromage", "entier", 10);
-let aldi = new Epicerie("aldi", [], [], [], [], [oignon.nom, oeuf.nom, epice.nom, fromage.nom]);
+let aldi = new Epicerie("aldi", [], [], [], [], [oignon, oeuf, epice, fromage]);
 let poele1 = new Poele([]);
