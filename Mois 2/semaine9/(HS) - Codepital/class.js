@@ -1,3 +1,4 @@
+export {patients, docteur}
 // ## Description des patients
 // >les malades ont un nom, une maladie, de l'argent, une poche, un état de santé,ils savent aller à un endroit, prendre un médicamment et payer. Au début, les patients sont dans un salle d'attente. 
 // ​
@@ -15,23 +16,28 @@ class Patient{
         this.name = name;
         this.disease = disease;
         this.money = money;
-        this.bag = bag
+        this.bag = bag;
         this.state = state;
         this.cure = cure;
     }
+    payer(){
 
+    }
     goTo(){
 
     }
 
     takeMed(){
 
-    }
-
-    payer(){
-
-    }
+    }    
 }
+
+let patients = [];
+patients.push(new Patient("Marcus", "mal indenté", 100, "none", "sick"));
+patients.push(new Patient("Optimus", "unsave", 200, "none", "sick"));
+patients.push(new Patient("Sangoku", "404", 80, "none", "sick"));
+patients.push(new Patient("DarthVader", "azmatique", 110, "none", "sick"));
+patients.push(new Patient("Semicolon", "syntaxError", 60, "none", "sick"));
 
 // ## Description du doctor
 // >Le doctor lui reçoit les patients dans son cabinet. Tout d'abord il les diagnostiques puis se fait payer avant de préscrire un traitement. Attention le doctor fait à chaque fois sortir le patient de son cabinet avant de prendre le suivant. Dans son cabinet il y a son chat de race sphynx pour garder un environemment stérile. Son chat miaule toutes les deux secondes dans la console(bonus). La consultation coûte 50€. Les patients son dans un état de traitement avant de sortir du cabinet.
@@ -44,14 +50,14 @@ let docteur = {
     name : "Dr.House",
     money : "0",
     cabinet : "[chat]",
-    function diagnostique(){
+    attente : patients,
+    function patientIn(){
         
     },
-    function patientIn(){
+    function diagnostique(){
         
     },
     function patientOut(){
         
     }
-
 }

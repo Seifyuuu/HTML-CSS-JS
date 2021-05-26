@@ -1,3 +1,4 @@
+import { patients, docteur } from "./class.js";
 // ### Grille des diagnostiques
 // |maladie|traitement|
 // |---|---|
@@ -49,3 +50,7 @@ cures.push(new cure("f12+doc", 20));
 
 let pharmacie = [];
 let cimetiere = [];
+
+
+
+
