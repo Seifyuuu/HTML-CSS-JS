@@ -1,4 +1,4 @@
-import { patients, docteur, diags, pharmacie, cimetiere, cures,  } from "./class.js";
+import {docteur, pharmacie} from "./class.js";
 
 
 

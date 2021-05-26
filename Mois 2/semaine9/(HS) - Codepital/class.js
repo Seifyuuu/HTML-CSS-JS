@@ -1,4 +1,4 @@
-export {patients, docteur, diags, pharmacie, cimetiere, cures, }
+export {pharmacie, docteur}
 
 
 // ### Tarif des traitements
@@ -123,8 +123,8 @@ let docteur = {
         console.log(`${lemalade.name} a payé 50€`);
     },
     patientOut(){
-        console.log(`Le patient est parti`);
         pharmacie.waiting.push(this.cabinet.shift())
+        console.log(`${pharmacie.waiting[0].name} est parti`);
         console.log(`${pharmacie.waiting[0].name} est arrivé à la pharmacie`);
     }
 }
