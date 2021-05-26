@@ -140,6 +140,10 @@ let pharmacie = {
                     console.log(`${lemalade.name} a acheté ${lemalade.bag} et il lui reste ${lemalade.money}`);
                     pharmacie.waiting.shift()
                     console.log(`${lemalade.name} quitte la pharmacie`);
+
+                    if (lemalade.bag == lemalade.cure) {
+                        console.log(`${lemalade.name} a pris ${lemalade.cure} et est soigné`);
+                    }
                 }
                 else{
                     console.log(`${lemalade.name} n'a pas l'argent et termine au cimetiere`);
