@@ -1,4 +1,30 @@
-export {patients, docteur, diags, pharmacie, cimetiere}
+export {patients, docteur, diags, pharmacie, cimetiere, cures, }
+
+
+// ### Tarif des traitements
+// |Traitement|prix|
+// |---|---|
+// |`ctrl+maj+f`|60€
+// |`saveOnFocusChange`|100€
+// |`CheckLinkRelation`|35€
+// |`Ventoline`|40€
+// |`f12+doc`|20€
+
+class Cure{
+    constructor(cure, price){
+        this.cure = cure;
+        this.price = price;
+    }
+}
+
+let cures = [];
+cures.push(new Cure("ctrl+maj+f", 60));
+cures.push(new Cure("saveOnFocusChange", 100));
+cures.push(new Cure("CheckLinkRelation", 35));
+cures.push(new Cure("Ventoline", 40));
+cures.push(new Cure("f12+doc", 20));
+
+
 
 // ### Grille des diagnostiques
 // |maladie|traitement|
@@ -57,11 +83,12 @@ class Patient{
 }
 
 let patients = [];
-patients.push(new Patient("Marcus", "mal indenté", 100, "none", "sick"));
-patients.push(new Patient("Optimus", "unsave", 200, "none", "sick"));
-patients.push(new Patient("Sangoku", "404", 80, "none", "sick"));
-patients.push(new Patient("DarthVader", "azmatique", 110, "none", "sick"));
-patients.push(new Patient("Semicolon", "syntaxError", 60, "none", "sick"));
+patients.push(new Patient("Marcus", "mal indenté", 100, "none", "sick", "none"));
+patients.push(new Patient("Optimus", "unsave", 200, "none", "sick", "none"));
+patients.push(new Patient("Sangoku", "404", 80, "none", "sick", "none"));
+patients.push(new Patient("DarthVader", "azmatique", 110, "none", "sick", "none"));
+patients.push(new Patient("Semicolon", "syntaxError", 60, "none", "sick", "none"));
+
 
 // ## Description du doctor
 // >Le doctor lui reçoit les patients dans son cabinet. Tout d'abord il les diagnostiques puis se fait payer avant de préscrire un traitement. Attention le doctor fait à chaque fois sortir le patient de son cabinet avant de prendre le suivant. Dans son cabinet il y a son chat de race sphynx pour garder un environemment stérile. Son chat miaule toutes les deux secondes dans la console(bonus). La consultation coûte 50€. Les patients son dans un état de traitement avant de sortir du cabinet.
@@ -71,7 +98,7 @@ patients.push(new Patient("Semicolon", "syntaxError", 60, "none", "sick"));
 // |Debugger|0|[chat]
 
 let docteur = {
-    name : "Dr.House",
+    name : "Dr.Nikomok",
     money : "0",
     cabinet : [],
     attente : patients,
@@ -88,6 +115,7 @@ let docteur = {
         for (const i of diags) {
             if (i.disease == lemalade.disease) {
                 curelemalade = i.cure;
+                lemalade.cure = curelemalade;
             }
         }
         console.log(`Le traitement de ${lemalade.name} est ${curelemalade}`);
@@ -96,8 +124,8 @@ let docteur = {
     },
     patientOut(){
         console.log(`Le patient est parti`);
-        pharmacie.push(this.cabinet.shift())
-        console.log(`${pharmacie[0].name} est arrivé à la pharmacie`);
+        pharmacie.waiting.push(this.cabinet.shift())
+        console.log(`${pharmacie.waiting[0].name} est arrivé à la pharmacie`);
     }
 }
 
@@ -105,6 +133,30 @@ let docteur = {
 // ## La pharmacie
 // >Les patients iront par après à la pharmacie et recevront leur traitement s'ils ont assez d'argent. Dans le cas ou ils ont assez d'argent ils seront alors en bonne santé sinon ils seront mort et il faudra alors les pousser dans un cimetière.
 
-let pharmacie = [];
+let pharmacie = {
+    waiting : [],
+
+    seekMed(){
+        let lemalade = this.waiting[0];
+        for (const i of cures) {
+            if (i.cure == lemalade.cure) {
+                console.log(`Le ${i.cure} coûte ${i.price}€`);
+                if (i.cure == lemalade.cure && i.price < lemalade.money){
+                    
+                    lemalade.bag = i.cure;
+                    console.log(`${lemalade.name} a acheté ${lemalade.bag} et il lui reste ${lemalade.money}`);
+                    pharmacie.waiting.shift()
+                    console.log(`${lemalade.name} quitte la pharmacie`);
+                }
+                else{
+                    console.log(`${lemalade.name} n'a pas l'argent et termine au cimetiere`);
+                    cimetiere.push(pharmacie.waiting.shift());
+                }      
+            }
+           
+        }
+        
+    }
+};
 let cimetiere = [];
 
