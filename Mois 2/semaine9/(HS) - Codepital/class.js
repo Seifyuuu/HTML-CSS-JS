@@ -73,13 +73,6 @@ class Patient{
         this.state = state;
         this.cure = cure;
     }
-    goTo(){
-
-    }
-
-    takeMed(){
-
-    }    
 }
 
 let patients = [];
@@ -106,7 +99,7 @@ let docteur = {
     patientIn(){
         this.cabinet.push(this.attente.shift())
         let lemalade = this.cabinet[0];
-        console.log(`${lemalade.name} est rentré`); 
+        console.log(`${lemalade.name} est rentré dans le cabinet`); 
     },
     diagnostique(){
         let lemalade = this.cabinet[0];
@@ -124,7 +117,7 @@ let docteur = {
     },
     patientOut(){
         pharmacie.waiting.push(this.cabinet.shift())
-        console.log(`${pharmacie.waiting[0].name} est parti`);
+        console.log(`${pharmacie.waiting[0].name} est parti de chez ${docteur.name}`);
         console.log(`${pharmacie.waiting[0].name} est arrivé à la pharmacie`);
     }
 }
