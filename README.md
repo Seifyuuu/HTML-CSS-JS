@@ -16,4 +16,4 @@ Mois 2 (01/05 - ??/??) :
 - JS (Semaine 6) == math., arrays, conditions, switch, boucles for/for...in
 - JS (Semaine 7) == boucles forEach, boucles while, fonctions, objets 
 - JS (Semaine 8) == classes, extend/super, révisions 
-- JS (Semaine 9) == omelette, codepital, DOM manipulation & traversal
+- JS (Semaine 9) == omelette, codepital, DOM manipulation & traversal & attributs
