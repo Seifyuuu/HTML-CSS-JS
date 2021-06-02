@@ -21,9 +21,10 @@ console.log(h2div);
 // - Utilise une boucle "for in" pour parcourir ton objet
 tabnameSkills = Object.keys(softSkills)
 tabvaluesSkills = Object.values(softSkills)
+tabSkills = Object.entries(softSkills)
 console.log(tabnameSkills);
 console.log(tabvaluesSkills);
-
+console.log(tabSkills);
     if(tabnameSkills[0] == h2div[1].innerHTML){
         h2div[1].innerHTML = `${h2div[1].innerHTML} ${tabvaluesSkills[0]}`
     }
