@@ -1,11 +1,7 @@
 let myDiv = document.getElementById("content");
 
 let func = (e) => {
-    //1
-    /*console.log(e)
-    //2
-    console.log(e.target)*/
-    //3
+  git 
     e.target.style.border = "solid red"
 }
 
