@@ -1,6 +1,5 @@
 Mois 1 (29/03 - 30/04) : 
 - HTML (Semaine 1)
-- GIT Bash
 - CSS (Semaine 1 & 2)
 - Bootstrap (Semaine 3)
 - Responsive (Semaine 4)
@@ -18,4 +17,3 @@ Mois 2 (01/05 - 30/05) :
 
 Mois 3 (31/05 - ?????) :
 - JS (Semaine 10) == DOM eventlistener 
-- JS (Semaine 11) == 
