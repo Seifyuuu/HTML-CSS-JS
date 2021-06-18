@@ -17,5 +17,5 @@ Mois 2 (01/05 - 30/05) :
 
 Mois 3 (31/05 - ?????) :
 - JS (Semaine 10) == DOM eventlistener 
-- JS (Semaine 11) == DOM révisions + calculatrice
-- JS (Semaine 12) == To-Do List + Emporium
+- JS (Semaine 11) == DOM révisions 
+- JS (Semaine 12) == Calculatrice + To-Do List + Emporium
