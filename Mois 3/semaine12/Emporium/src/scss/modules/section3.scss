@@ -1,0 +1,83 @@
+#section3{
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+
+#divSection3img{
+    display: flex;
+    margin-bottom: 6%;
+}
+
+.imgBoxSection3{
+    width: 95%;
+}
+
+.divImgContainer{
+    display: flex;
+    justify-content: center;
+    height: 160px;
+}
+
+.textOnImg{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    padding-top: 2%;
+    border-bottom: white 1px solid;
+    width: 25%;
+    text-align: center;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgBoxPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .padreHover{
+        position: absolute;
+        display: none;
+        .noobHover{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+           .infos{
+               background-color: red;
+           }
+           .panier{
+               background-color: white;
+           }
+        }
+    
+    }
+}
+
+.imgBoxPrix:hover{
+    width: 70%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    .padreHover{
+        display: block;
+    }
+    }
+
+
+
+
+
+
+.imgBoxPrix{
+    width: 60%;
+    margin-bottom: 5%;
+}
+.priceP{
+    color: red;
+    margin-bottom: 5%;
+}

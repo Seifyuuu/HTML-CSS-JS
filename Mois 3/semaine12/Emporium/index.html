@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+  </head>
+  <body>
+    <!-- Connexion -->
+    <div id="pageConnexion">
+      <div id="numero1">
+        <img src="./public/img/logo.png" alt="" id="logoConnexion"/>
+        <button id="closeWindow">X</button>
+      </div>
+      <div id="btnChoix">
+        <button id="subCo" style="margin-right: 2%">Connexion</button>
+        <button id="inscription">Inscription</button>
+      </div>
+      <div id="grosseDiv">
+        <span>Email</span>
+        <label for="email"><input type="text" /></label>
+        <p>Ton email tkt on le partage pas</p>
+        <span>Password</span>
+        <label for="password"><input type="text" /></label>
+        <div id="formulaireNvx">
+          <span>Confirm Password</span>
+          <label for="password"><input type="text" /></label>
+          <div>
+            <input type="checkbox" /><span>Homme</span>
+            <input type="checkbox" /><span>Femme</span>
+          </div>
+        </div>
+        <div>
+          <input id="inputCo" type="checkbox" /><span>Remember me</span>
+        </div>
+        <button>Submit</button>
+        <div style="margin-top: 3%;">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-snapchat-ghost"></i>
+          <i class="fas fa-laptop-code"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <header class="blurred">
+      <div id="divLogo">
+        <img
+          src="./public/img/logo.png"
+          id="imgLogo"
+          class="logoEmpo2"
+          alt=""
+        />
+      </div>
+      <nav id="navbarAnim">
+        <ul id="listNavbar">
+          <li>Home</li>
+          <li>Product</li>
+          <li>Blog</li>
+          <li>Elements</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li class="liBtn">
+            <button class="btnWhiteMode">L</button>
+            <button class="btnDarkMode">D</button>
+            <button class="btnConnexion" id="btnCo">Connexion</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Section 2 / Shop At Emporium  -->
+    <section id="section2Base" class="blurred">
+      <div id="section2">
+        <div id="boiteSection2">
+          <div>
+            <h2 id="ShopAt" style="color: red">Shop at</h2>
+            <img
+              src="./public/img/logo.png"
+              alt=""
+              id="imgEmpo"
+              class="logoEmpo2"
+            />
+          </div>
+          <div>
+            <p class="pSection2" style="width: 80%; text-align: justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores nisi totam quaerat necessitatibus dicta numquam soluta
+              nostrum fugit ea magni!
+            </p>
+          </div>
+          <div>
+            <button id="btnSaleItems">Sale items</button>
+          </div>
+        </div>
+        <div id="boiteImgSection">
+          <img src="./public/img/slider-1.png" id="imgSection2" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 / Recents Products -->
+    <section id="section3" class="blurred">
+      <div id="divSection3img">
+        <div class="divImgContainer">
+          <img
+            src="./public/img/services/service-1.jpg"
+            alt=""
+            class="imgBoxSection3"
+          />
+          <span class="textOnImg">Living Room</span>
+        </div>
+        <div class="divImgContainer">
+          <img
+            src="./public/img/services/service-2.jpg"
+            alt=""
+            class="imgBoxSection3"
+          /><span class="textOnImg">Sales items</span>
+        </div>
+        <div class="divImgContainer">
+          <img
+            src="./public/img/services/slider-3.jpg"
+            alt=""
+            class="imgBoxSection3"
+          />
+          <span class="textOnImg">Clothes</span>
+        </div>
+      </div>
+
+      <div>
+        <h2 style="text-align: center; margin-bottom: 5%">Recents Products</h2>
+        <div id="hover">
+          <div class="box1">
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-luxry-sofa.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <div class="padreHover">
+                <div class="noobHover">
+                  <div class="infos">
+                    <a href="">Infos</a>
+                  </div>
+                  <div class="panier">
+                    <a href="">Au panier !</a>
+                  </div>
+                </div>
+              </div>
+              <p>Luxury Sofa</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-gloves.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Gloves</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-cups.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Bowls</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+          </div>
+          <div class="box1">
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-bag.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Bag</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-tshitr.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>T-Shirts</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-plates.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Plates</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+          </div>
+          <div class="box1">
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-modern-sofa.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Modern Sofa</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-bed.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Bed</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+            <div class="imgBoxPrice">
+              <img
+                src="./public/img/products_mini/product-shoes.jpg"
+                class="imgBoxPrix"
+                alt=""
+              />
+              <p>Shoes</p>
+              <p class="priceP">PRICE $$$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 / Learn More -->
+
+    <section id="section4" class="blurred">
+      <h1 id="textSection4" style="color: white">
+        Discover Thousands of Great Products
+      </h1>
+      <button id="btnLearnMore">Learn More</button>
+    </section>
+
+    <!-- Section 5 / Carroussel  -->
+
+    <section id="section5" class="blurred">
+      <div class="slideshow-container">
+        <span style="font-size: x-large;">Tendances</span>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img
+            src="./public/img/products/product-bag-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img
+            src="./public/img/products/product-tshitr-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img
+            src="./public/img/products/product-shoes-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img
+            src="./public/img/products/product-jacket-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img
+            src="./public/img/products/product-tshitr-white-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img
+            src="./public/img/products/product-bag-2-700x500.jpg"
+            class="imgCarousel"
+          />
+        </div>
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6 / Triple Box -->
+    <section id="section6" class="blurred">
+      <div class="greyBox">
+        <i style="margin-bottom: 5%" class="fas fa-check"></i>
+        <h5>Saluuut</h5>
+        <span class="spanSect6"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quia
+          libero architecto facilis odit nemo.</span
+        >
+        <button class="btnSection6">Learn More</button>
+      </div>
+      <div class="redBox">
+        <i style="margin-bottom: 5%" class="fab fa-telegram-plane"></i>
+        <h5>Saluuut</h5>
+        <span class="spanSect6"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quia
+          libero architecto facilis odit nemo.</span
+        >
+        <button class="btnSection66">Learn More</button>
+      </div>
+      <div class="greyBox">
+        <i style="margin-bottom: 5%" class="fas fa-check"></i>
+        <h5>Saluuut</h5>
+        <span class="spanSect6"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quia
+          libero architecto facilis odit nemo.</span
+        >
+        <button class="btnSection6">Learn More</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="blurred">
+      <div id="greyLoot">
+        <div id="AboutUs">
+          <h5>About Us</h5>
+          <span
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id dicta
+            beatae magnam perspiciatis sint, nostrum fugit. Id minus explicabo
+            rerum.</span
+          >
+        </div>
+        <div id="RecentsPosts">
+          <h5>Recents Posts</h5>
+          <ul>
+            <li>Hello World</li>
+            <li>Les hommes mentent</li>
+            <li>Mais pas les chiffres</li>
+            <li>Merci Kaaris</li>
+          </ul>
+        </div>
+        <div id="TagCloud">
+          <h5>Tag Cloud</h5>
+          <div>
+            <button>business</button>
+            <button>confidence</button>
+            <button>gadgets</button>
+
+            <button>identity</button>
+            <button>logo</button>
+            <button>photography</button>
+
+            <button>time</button>
+            <button>trips</button>
+            <button>works</button>
+            <button>work space</button>
+          </div>
+        </div>
+      </div>
+      <div id="blackBox">
+        <p>COPYRIGHT ET MERCE LE PLUS BEAU DE LA CLASSE</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./scripts/darklight.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/connexion.js"></script>
+  </body>
+</html>

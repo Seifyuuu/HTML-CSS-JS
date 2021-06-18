@@ -1,0 +1,49 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    align-items: center;
+    padding-top: 5%;
+}
+
+#greyLoot{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#blackBox{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    width: 100%;
+    
+}
+
+#AboutUs{
+    width: 50%;
+    color: lightgrey;
+}
+#RecentsPosts{
+    width: 50%;
+    color: lightgrey;
+}
+#TagCloud{
+    width: 50%;
+    padding-bottom: 3%;
+    color: lightgrey;
+
+    button{
+        background-color: transparent;
+        border: 1px white solid;
+        border-radius: 10px;
+        margin: 1%;
+        color: lightgrey;
+    }
+}
