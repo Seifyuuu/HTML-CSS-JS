@@ -15,7 +15,7 @@ Mois 2 (01/05 - 30/05) :
 - JS (Semaine 9) == omelette, codepital, DOM manipulation & traversal & attributs
 
 
-Mois 3 (31/05 - ?????) :
+Mois 3 (31/05 - 18/06) :
 - JS (Semaine 10) == DOM eventlistener 
 - JS (Semaine 11) == DOM révisions 
 - JS (Semaine 12) == Calculatrice + To-Do List + Emporium
