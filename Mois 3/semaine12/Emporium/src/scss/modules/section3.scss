@@ -36,43 +36,6 @@
     align-items: center;
 
 }
-.imgBoxPrice{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    .padreHover{
-        position: absolute;
-        display: none;
-        .noobHover{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-           .infos{
-               background-color: red;
-           }
-           .panier{
-               background-color: white;
-           }
-        }
-    
-    }
-}
-
-.imgBoxPrix:hover{
-    width: 70%;
-    box-shadow: 3px 3px 5px 6px #ccc;
-    .padreHover{
-        display: block;
-    }
-    }
-
-
-
-
-
-
 .imgBoxPrix{
     width: 60%;
     margin-bottom: 5%;
@@ -81,3 +44,44 @@
     color: red;
     margin-bottom: 5%;
 }
+.imgBoxPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .padreHover{
+        width: 100%;
+        .noobHover{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%
+        }
+    }
+}
+
+.imgBoxPrice:hover{
+    width: 70%;
+    .imgBoxPrix{
+        box-shadow: 3px 3px 5px 6px #ccc;
+    }
+    .infos{
+        background-color: white;
+        a{
+        color: red;
+    }
+    }
+    .panier{
+        background-color: red;
+        a{
+        color: white;
+    }
+    }
+}
+
+
+
+
+
